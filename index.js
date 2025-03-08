@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "https://curious-lily-61c53b.netlify.app", credentials: true }));
+app.use(cors({ origin: "https://legendary-croquembouche-453ec1.netlify.app", credentials: true }));
 
 DB();
 app.use(userRouter)
